@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=9&=r3$8gks(a&!y6#$u1=7)&k7jmf02zl2$401*@#hx95_d@z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['16.171.175.124', 'localhost']
 
 
 # Application definition
@@ -54,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "https://recipe-rack-frontend.s3-website.eu-north-1.amazonaws.com/",
     "http://localhost:3000",
 ]
 
